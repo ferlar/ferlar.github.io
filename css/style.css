@@ -13,10 +13,48 @@
 	font-size: inherit;
 }
 
-/* Navbar */
-
 .logo {
-	width: 140px;
-	margin-top: 6px;
+		width: 135px;
+		margin-top: 2px;
 }
 
+.hero-call{
+	margin-top: 85px;
+}
+
+.main {
+		height: 400px;
+		background: url('../img/clothes.jpg') no-repeat center center fixed;
+		background-color: #fff;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+
+@media only screen and (min-device-width: 600px) {
+/* Navbar */
+
+	.logo {
+		width: 140px;
+		margin-top: 6px;
+	}
+
+	.hero-call{
+		margin-top: 100px;
+	}
+
+	.main {
+		height: 400px;
+		background: url('../img/clothes.jpg') no-repeat center center fixed;
+		background-color: #fff;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+}
+
+@media only screen and (min-device-width: 993px) {
+
+}
