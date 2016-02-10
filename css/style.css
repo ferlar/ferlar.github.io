@@ -48,6 +48,16 @@
 	font-weight: 600;
 }
 
+#map {
+        width: 100%;
+        height: 400px;
+}
+
+footer.page-footer {
+	margin-top: 0;
+}
+
+
 @media only screen and (min-device-width: 600px) {
 /* Navbar */
 
