@@ -15,11 +15,11 @@
   <nav class="blue darken-4" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="img/ferlarwhite.png" alt="ferlar-logo" class="logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Contactos</a></li>
+        <li><a onclick="scrollDown()">Contactos</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Contactos</a></li>
+        <li><a onclick="scrollDown()">Contactos</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -144,7 +144,7 @@
    <script type="text/javascript">
       function openChat(){
          $crisp.chat.open()
-      }
+      };
 
       $( "#call-to-action" ).hover(
         function() {
@@ -153,6 +153,10 @@
           $( this ).removeClass( "animated pulse infinite" );
         }
       );
+
+      function scrollDown(){
+        $("html, body").animate({ scrollTop: $(document).height() }, 1200);
+      };
    </script>
    
   <script type="text/javascript">
@@ -171,11 +175,11 @@
           icon: iconBase + 'schools_maps.png'
         });
         var contentString = '<div id="container">'+
-        '<h5>Ferlar</h5>'+
-        '<p><b>Morada</b></p>' +
-        '<p>Avenida Barros e Soares, Nogueira </p>' +
-         '<p>Braga - 4710-214</p>' +
-        '</div>';
+                              '<h5>Ferlar</h5>'+
+                              '<p><b>Morada</b></p>' +
+                              '<p>Avenida Barros e Soares, Nogueira </p>' +
+                               '<p>Braga - 4710-214</p>' +
+                              '</div>';
 
         var infowindow = new google.maps.InfoWindow({
             content: contentString,
