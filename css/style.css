@@ -57,6 +57,14 @@ footer.page-footer {
 	margin-top: 0;
 }
 
+.missao{
+	background-color: rgba(1, 87, 155, 0.74);
+}
+
+.missao-text {
+	color: white;
+	font-size: 20px;
+}
 
 @media only screen and (min-device-width: 600px) {
 /* Navbar */
