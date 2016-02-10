@@ -18,7 +18,7 @@
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Contactos</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -28,10 +28,12 @@
       <br><br>
       <div class="hero">
           <div class="row col m5 col s12">
-            <h5 class="header hero-call col s12 light white-text">Empresa especializadas na distribuição de artigos têxteis</h5>
+            <h5 class="header hero-call col s12 light white-text">Empresa especializada na distribuição de artigos têxteis</h5>
+          </div>
+          <div class="row center">
+              <a  onclick="openChat()" class="button btn waves-effect waves-light amber lighten-2">Fala connosco</a>
           </div>
       </div>
-     
     </div>
   </div>
 
@@ -112,7 +114,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://diogomartf.github.io">Diogo Ferreira</a>
+       Made by <a class="orange-text text-lighten-3" href="http://diogomartf.github.io">Diogo Ferreira</a>
       </div>
     </div>
   </footer>
@@ -124,6 +126,13 @@
   <script src="js/init.js"></script>
 
   <!--  Crisp Messages-->
- <script type="text/javascript">CRISP_WEBSITE_ID = "-KA7eoZQV0YrGE6LfAq2";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+ <script type="text/javascript">CRISP_WEBSITE_ID = "-KA7eoZQV0YrGE6LfAq2";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+ </script>
+ <script type="text/javascript">
+    function openChat(){
+       $crisp.chat.open()
+    }
+ </script>
+
   </body>
 </html>

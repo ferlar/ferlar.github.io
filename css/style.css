@@ -35,7 +35,18 @@
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	}
+}
+.nav-wrapper {
+	font-weight: 800;
+}
+
+.nav-wrapper a{
+	font-size: 20px;
+}
+
+.button {
+	font-weight: 600;
+}
 
 @media only screen and (min-device-width: 600px) {
 /* Navbar */
@@ -58,8 +69,17 @@
 	  -o-background-size: cover;
 	  background-size: cover;
 	}
+
+	.icon-block img {
+		width: 180px;
+		padding-left: 10px;
+	    padding-right: 15px;
+	}
 }
 
 @media only screen and (min-device-width: 993px) {
-
+	.icon-block img {
+		width: 235px;
+		padding: 0;
+	}
 }
