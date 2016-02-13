@@ -18,3 +18,11 @@ function scrollDownMobile(){
 	$('.button-collapse').sideNav('hide');
 	$("html, body").animate({ scrollTop: $(document).height() }, 950);
 }
+
+if (screen.width<= 750) {
+	$( window ).scroll(function() {
+  		 $('#icon1').addClass('animated bounceInLeft');
+		 $('#icon2').addClass('animated bounceInLeft');
+		 $('#icon3').addClass('animated bounceInLeft');
+	});
+}
