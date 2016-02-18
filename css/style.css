@@ -13,9 +13,6 @@
 }
 
 /* main */
-.hero {
-	width: 650px;
-}
 
 .hero-call{
 	margin-top: 85px;
@@ -96,5 +93,9 @@ footer.page-footer {
 	.icon-block .img-icon {
 		width: 235px;
 		padding: 0;
+	}
+
+	.hero {
+		width: 650px;
 	}
 }
