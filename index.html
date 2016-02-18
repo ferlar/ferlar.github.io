@@ -13,55 +13,52 @@
 </head>
 <body>
   <nav class="blue darken-4" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="img/ferlar-logo.png" alt="ferlar-logo" class="logo"></a>
+    <div class="nav-wrapper container">
+      <a class="brand-logo" id="logo-container" href="#">
+      <img class="logo" src="img/ferlar-logo.png" alt="ferlar-logo" ></a>
       <ul class="right hide-on-med-and-down">
-        <li><a onclick="scrollDown()">Contactos</a></li>
+        <li><a onclick="scrollDown()" class="nav-link">Contactos</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a onclick="scrollDownMobile()">Contactos</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a class="button-collapse" data-activates="nav-mobile" href="#"><i class="material-icons">menu</i></a>
     </div>
   </nav>
   <div class="section no-pad-bot main" id="index-banner">
     <div class="container">
-      <br><br>
-      <div class="hero">
-          <div class="row col m5 col s12">
-            <h5 class="header hero-call col s12 light white-text">Empresa especializada na distribuição de <span class="amber-text">artigos têxteis</span></h5>
+          <div class="row col m6 col s12 hero">
+            <h5 class="hero-call col s12 light white-text">Empresa especializada na distribuição de <span class="amber-text">artigos têxteis</span> com mais de 20 anos de experiência no mercado</h5>
           </div>
           <div class="row center">
-              <a onclick="openChat()" id="call-to-action" class="button btn waves-effect waves-light amber lighten-2">Fala connosco</a>
-          </div>
-      </div>
+              <a class="button btn waves-effect waves-light amber lighten-2" onclick="openChat()">Fala connosco</a>
+          </div>  
     </div>
   </div>
 
 
   <div class="container">
     <div class="section">
-
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
             <div class="center">
-              <img src="img/T-shirt.png" alt="tshirt" id="icon1">
+              <img class="img-icon"  id="icon1" alt="tshirt" src="img/T-shirt.png" >
             </div>
             <h5 class="center">Selecão dos produtos</h5>
 
-            <p class="light">Oferecemos uma grande diversidade de produtos para o lar, com a melhor qualidade e preços.</p>
+            <p class="light">Oferecemos uma grande diversidade de produtos, com a melhor qualidade e preços.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <div class="center">
-              <img src="img/lojas.png" alt="tshirt" id="icon2">
+              <img class="img-icon" id="icon2" alt="tshirt" src="img/lojas.png">
             </div>
             <h5 class="center">Lojas e Supermecados</h5>
-
             <p class="light">Somos os parceiros indicados para impulsionar a sua estratégia de vendas, de acordo com o tamanho e necessidades do seu negócio.</p>
           </div>
         </div>
@@ -69,7 +66,7 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <div class="center">
-              <img src="img/carrinha.png" alt="tshirt" id="icon3">
+              <img class="img-icon" id="icon3" alt="tshirt" src="img/carrinha.png">
             </div>
             <h5 class="center">Distribuição por todo o País</h5>
             <p class="light">Onde quer que esteja o seu negócio, nós vamos ter consigo.</p>
@@ -109,18 +106,18 @@
         </div>
         <div class="col offset-l1 l3 s12 white-text">
           <h5 class="">Horario</h5>
-          <p><strong>Segunda à Sexta</strong></p>
+          <p><span class="footer-bold">Segunda à Sexta</span></p>
           <p>Das 9h às 20h</p>
-          <p><strong>Sábado</strong></p>
-          <p>Das 9h à 13h</p>
+          <p><span class="footer-bold">Sábado</span></p>
+          <p>Das 10h à 13h</p>
         </div>
         <div class="col l3 s12  white-text">
           <h5>Contactos</h5>  
-          <p><strong>Telefone</strong></p>
-          <p>253683706</p>
-          <p>917522239</p>
-          <p><strong>Email</strong></p>
-          <p>geral@ferlar.pt</p>
+          <p><span class="footer-bold">Telefone</span></p>
+          <p><a class="white-text" href="tel:253683706">253683706</a></p>
+          <p><a class="white-text" href="tel:917522239">917522239</a></p>
+          <p><span class="footer-bold">Email</span></p>
+          <a class="white-text" href="mailto:geral@ferlar.pt">geral@ferlar.pt</a>
         </div>
       </div>
     </div>
