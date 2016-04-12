@@ -47,8 +47,9 @@
 
 /* Mission */
 .missao{
-	background-color: rgba(1, 87, 155, 0.74);
-    /*background: url('../img/missao.png');*/
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background: linear-gradient(130deg,rgba(1, 87, 155, 0.74),rgba(13, 71, 161, 0.87)) center center fixed no-repeat;
 }
 
 .missao-text {

@@ -6,11 +6,19 @@ function initMap() {
     scrollwheel: false,
     draggable: false
   });
-  var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+
+  var image = {
+    url: 'img/location.png',
+    size: new google.maps.Size(50, 75),
+    scaledSize: new google.maps.Size(45, 70),
+    origin: new google.maps.Point(0, 0),
+    anchor: new google.maps.Point(0, 0)
+  };
+
   var marker = new google.maps.Marker({
     position: new google.maps.LatLng(41.532848, -8.419328),
     map: map,
-    icon: iconBase + 'schools_maps.png'
+    icon: image
   });
   var contentString = '<div id="container">'+
                         '<h5>Ferlar</h5>'+
