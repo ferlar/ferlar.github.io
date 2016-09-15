@@ -24,7 +24,7 @@ function initMap() {
                         '<h5>Ferlar</h5>'+
                         '<p><b>Morada</b></p>' +
                         '<p>Avenida Barros e Soares, Nogueira </p>' +
-                         '<p>Braga - 4710-214</p>' +
+                         '<p>4715-214, Braga</p>' +
                         '</div>';
 
   var infowindow = new google.maps.InfoWindow({
