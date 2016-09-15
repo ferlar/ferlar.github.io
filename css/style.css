@@ -12,6 +12,16 @@
 	font-size: 20px;
 }
 
+
+.side-nav {
+	background: rgb(13, 71, 161);
+}
+
+.side-nav a{
+	color: white;
+	font-size: 22px;
+}
+
 /* main */
 
 .hero-call{

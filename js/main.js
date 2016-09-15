@@ -1,5 +1,5 @@
 function openChat(){
-   $crisp.chat.open()
+   $crisp.do('chat:open');
 };
 
 function scrollDown(){
