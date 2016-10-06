@@ -27,19 +27,19 @@ function moveCarrinha(){
 var options = [
   {
     selector: '#icon1',
-    offset: 50,
+    offset: 0,
     callback:
      moveShirt()
    },
    {
      selector: '#icon2',
-     offset: 50,
+     offset: 0,
      callback:
       moveBuilding()
     },
     {
     selector: '#icon3',
-    offset: 70,
+    offset: 0,
     callback:
      moveCarrinha()
    },
